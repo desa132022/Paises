@@ -23,6 +23,7 @@ export interface Country {
     area:         number;
     demonyms:     Demonyms;
     flag:         string;
+    flags:        CoatOfArms;
     maps:         Maps;
     population:   number;
     gini:         Gini;
@@ -30,7 +31,6 @@ export interface Country {
     car:          Car;
     timezones:    string[];
     continents:   string[];
-    flags:        CoatOfArms;
     coatOfArms:   CoatOfArms;
     startOfWeek:  string;
     capitalInfo:  CapitalInfo;
